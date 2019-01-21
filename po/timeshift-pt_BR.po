@@ -266,10 +266,6 @@ msgstr ""
 "disco do sistema falhar, os backups serão perdidos juntamente com o sistema. "
 "Salve os backups em um disco externo, que não seja de sistema, no modo RSYNC "
 "para proteger contra falhas de disco.\n"
-"Os backups do BTRFS são salvos no mesmo disco do qual ele é criado. Se o "
-"disco do sistema falhar, os backups serão perdidos juntamente com o sistema. "
-"Salvar backups para um disco não-sistema externo no modo RSYNC para proteger "
-"contra falhas de disco."
 
 #: Utility/Gtk/AboutWindow.vala:349 Utility/Gtk/AboutWindow.vala:381
 msgid "Back"
@@ -556,8 +552,6 @@ msgid ""
 "system"
 msgstr ""
 "Crie backups manualmente ou ative backups agendados para proteger o seu "
-"sistema\n"
-"Criar backups manualmente ou ativar backups agendados para proteger seu "
 "sistema"
 
 #: Gtk/SnapshotBackendBox.vala:95
@@ -634,8 +628,7 @@ msgstr "Diário"
 #: Core/Main.vala:1077
 msgid "Daily snapshot failed!"
 msgstr ""
-"Backup diário falhou!\n"
-"Cópia diária falhou!"
+"Backup diário falhou!"
 
 #: Core/Main.vala:1058
 msgid "Daily snapshots are enabled"
@@ -658,31 +651,27 @@ msgstr "Excluir"
 msgid "Delete Snapshots"
 msgstr ""
 "Excluir Backups\n"
-"Abapar Backups"
 
 #: Console/AppConsole.vala:372
 msgid "Delete all snapshots"
 msgstr ""
 "Excluir todos os backups\n"
-"Apagar todos os backups"
 
 #: Gtk/MainWindow.vala:162
 msgid "Delete selected snapshot"
 msgstr ""
 "Excluir backup selecionado\n"
-"Apagar backup selecionado"
 
 #: Console/AppConsole.vala:371
 msgid "Delete snapshot"
 msgstr ""
 "Excluir backup\n"
-"Apagar backup"
 
 #: Gtk/RsyncLogBox.vala:370 Gtk/RsyncLogBox.vala:575 Gtk/RsyncLogBox.vala:596
 #: Gtk/RestoreBox.vala:124 Gtk/BackupBox.vala:86
 #, c-format
 msgid "Deleted"
-msgstr "Apagado"
+msgstr "Excluido"
 
 #: Utility/TeeJee.FileSystem.vala:381
 msgid "Deleted directory"
@@ -696,8 +685,7 @@ msgstr "Subvolume excluído"
 #: Gtk/DeleteBox.vala:58
 msgid "Deleting Snapshots..."
 msgstr ""
-"Excluindo Backup...\n"
-"Apagando Backup..."
+"Excluindo Backup..."
 
 #: Core/Subvolume.vala:141
 #, c-format
@@ -1085,8 +1073,6 @@ msgid ""
 msgstr ""
 "Arquivos e Diretórios correspondentes aos padrões abaixo serão excluídos. "
 "Padrões começando com um + irá incluir o item em vez de excluir.\n"
-"Arquivos &amp; Diretórios correspondentes aos padrões abaixo serão "
-"excluídos. Padrões começando com um + irá incluir o item em vez de excluir."
 
 #: Gtk/SnapshotBackendBox.vala:192
 msgid "Files and directories can be excluded to save disk space."
@@ -1214,9 +1200,7 @@ msgid ""
 "install Timeshift, and try restoring another snapshot."
 msgstr ""
 "Se o sistema restaurado falhar ao inicializar, inicie o sistema pelo CD/USB, "
-"instale o Timeshift e tente restaurar outro backup.\n"
-"Se o sistema restaurado falhar ao inicializar, inicialize CDs/USB, instale "
-"Timeshift e tente restaurar outro backup."
+"instale o Timeshift e tente restaurar outro backup."
 
 #: Core/Main.vala:2212
 msgid ""
@@ -1235,8 +1219,7 @@ msgstr ""
 #: Gtk/ExcludeBox.vala:54
 msgid "Include / Exclude Patterns"
 msgstr ""
-"Parâmetros de inclusão / exclusão\n"
-"Parâmetros de incluídos / excluidos"
+"Parâmetros de inclusão / exclusão"
 
 #: Gtk/UsersBox.vala:340
 msgid "Include @home subvolume in backups"
@@ -1265,7 +1248,7 @@ msgstr "Backup inválido"
 
 #: Utility/Gtk/DonationWindow.vala:94
 msgid "Issue Tracker"
-msgstr ""
+msgstr "Rastreador de problemas"
 
 #: Gtk/ExcludeBox.vala:272
 msgid "Items Not Selected"
@@ -1284,9 +1267,6 @@ msgstr ""
 "Mantenha arquivos de configuração para clientes de bittorrent como Deluge, "
 "Transmission, etc. Se desmarcado, os arquivos de configuração anteriores "
 "serão restaurados a partir do backup.\n"
-"Mantenha arquivos de configuração para clientes de bittorrent como Deluge, "
-"Transmissão, etc. Se desmarcado, os arquivos de configuração anteriores "
-"serão restaurados a partir do backup."
 
 #: Gtk/RestoreExcludeBox.vala:85
 msgid ""
@@ -1319,34 +1299,29 @@ msgstr "Rótulo"
 #, fuzzy, c-format
 msgid "Last boot snapshot is %d hours old"
 msgstr ""
-"Último backup da inicialização é de %d horas atrás\n"
-"Último backup de boot é %d horas velho"
+"Último backup da inicialização é de %d horas atrás"
 
 #: Core/Main.vala:1005
 msgid "Last boot snapshot is older than system start time"
 msgstr ""
 "Último backup da inicialização é mais antigo do que a hora de início do "
-"sistema\n"
-"Último backup de boot é mais velho do que a hora de início do sistema"
+"sistema"
 
 #: Core/Main.vala:1001
 msgid "Last boot snapshot not found"
 msgstr ""
-"Último backup de inicialização não foi encontrado\n"
-"Última backup de inicialização não encontrado"
+"Último backup de inicialização não foi encontrado"
 
 #: Core/Main.vala:1070
 #, fuzzy, c-format
 msgid "Last daily snapshot is %d hours old"
 msgstr ""
-"Último backup diário é de %d horas atrás\n"
-"Último backup diária é de %d horas velho"
+"Último backup diário é de %d horas atrás"
 
 #: Core/Main.vala:1065
 msgid "Last daily snapshot is more than 1 day old"
 msgstr ""
-"Último backup diário foi feito há mais de 1 dia\n"
-"Último backup diária é mais de 1 dia"
+"Último backup diário foi feito há mais de 1 dia"
 
 #: Core/Main.vala:1061
 msgid "Last daily snapshot not found"
@@ -1356,33 +1331,28 @@ msgstr "Último backup diário não encontrado"
 #, fuzzy, c-format
 msgid "Last hourly snapshot is %d minutes old"
 msgstr ""
-"Último backup foi a %d minutos atrás\n"
-"Último backup é de %d minutos mais velho"
+"Último backup foi a %d minutos atrás"
 
 #: Core/Main.vala:1035
 msgid "Last hourly snapshot is more than 1 hour old"
 msgstr ""
-"Último backup é de mais de 1 hora atrás\n"
-"Último backup é mais do que uma 1 hora mais velho"
+"Último backup é de mais de 1 hora atrás"
 
 #: Core/Main.vala:1031
 msgid "Last hourly snapshot not found"
 msgstr ""
-"Backup da última hora não encontrado\n"
-"Backup de última hora não encontrado"
+"Backup da última hora não encontrado"
 
 #: Core/Main.vala:1130
 #, fuzzy, c-format
 msgid "Last monthly snapshot is %d days old"
 msgstr ""
-"Último backup mensal é de %d dias atrás\n"
-"Último backup mensal é de %d dias de idade"
+"Último backup mensal é de %d dias atrás"
 
 #: Core/Main.vala:1125
 msgid "Last monthly snapshot is more than 1 month old"
 msgstr ""
-"Último backup mensal foi efetuado há mais de 1 mês\n"
-"Último backup mensal é de mais de 1 mês de idade"
+"Último backup mensal foi efetuado há mais de 1 mês"
 
 #: Core/Main.vala:1121
 msgid "Last monthly snapshot not found"
@@ -1392,8 +1362,7 @@ msgstr "Último backup mensal não encontrado"
 #, fuzzy, c-format
 msgid "Last weekly snapshot is %d days old"
 msgstr ""
-"Último backup semanal é de %d dias atrás\n"
-"Último backup semanal é de %d dias de idade"
+"Último backup semanal é de %d dias atrás"
 
 #: Core/Main.vala:1095
 msgid "Last weekly snapshot is more than 1 week old"
@@ -1406,13 +1375,12 @@ msgstr "Último backup semanal não encontrado"
 #: Gtk/MainWindow.vala:1033
 #, c-format
 msgid "Latest snapshot"
-msgstr ""
-"Backup mais recente\n"
-"Backup recente"
+msgstr "Backup mais recente"
+
 
 #: Utility/Gtk/AboutWindow.vala:316 Utility/Gtk/AboutWindow.vala:356
 msgid "License"
-msgstr ""
+msgstr "Licença"
 
 #: Core/Main.vala:1344
 #, c-format
@@ -1528,9 +1496,7 @@ msgstr "Nenhum Backup Selecionado"
 
 #: Gtk/MainWindow.vala:1057
 msgid "No snapshots available"
-msgstr ""
-"Nenhum backup disponível\n"
-"Nenhum backups disponíveis"
+msgstr "Nenhum backup disponível"
 
 #: Console/AppConsole.vala:320 Core/SnapshotRepo.vala:898
 #: Gtk/MainWindow.vala:1001
@@ -1539,9 +1505,7 @@ msgstr "Nenhum backup encontrado"
 
 #: Console/AppConsole.vala:741
 msgid "No snapshots found on device"
-msgstr ""
-"Nenhum backup encontrado no dispositivo\n"
-"Nenhum snapshot encontrado no dispositivo"
+msgstr "Nenhum backup encontrado no dispositivo"
 
 #: Gtk/MainWindow.vala:546
 msgid "No snapshots on device"
@@ -2376,8 +2340,6 @@ msgid ""
 msgstr ""
 "Os backups são criados através de cópias de arquivos do sistema usando o "
 "rsync, e vinculando os arquivos inalterados ao backup anterior.\n"
-"Os backups são criados criando cópias de arquivos de sistema usando o rsync "
-"e vinculando arquivos inalterados do backup anterior."
 
 #: Gtk/SnapshotBackendBox.vala:167
 msgid ""
